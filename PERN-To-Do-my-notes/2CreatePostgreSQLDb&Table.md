@@ -2,15 +2,16 @@
 * Open cmd and type `psql -U postgres` for connect local db
 * then type password.(This password is provide when PostgreSQL is installing)
 <br>
-* **Open remote db**
-* `psql -h builtrackr.postgres.database.azure.com -p 5432 -d test -U cs52 -W`
+ **<u>Open remote db via cmd</u>**
+* `psql -h builtrackr.postgres.database.azure.com -p 5432 -d perntodo -U cs52 -W`
 Here,
-builtrackr.postgres.database.azure.com - host
-5432 -port
-test -db name
+ host- builtrackr.postgres.database.azure.com 
+port- 5432
+db name- perntodo
 cs52 -username
 * Then type password
 <br>
+**<u>Some commands of postgresql in terminal</u>**
 * `\l` show all databases
 * `\c <db_name>` connect to relevant database
 * `\dt` show all tables in db
